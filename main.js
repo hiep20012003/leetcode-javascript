@@ -1,9 +1,7 @@
-import { NumberOfLinesToWriteStringSolution } from "./problems/problem-806_number-of-lines-to-write-string/solution.js";
-import { NumberOfLinesToWriteStringTest } from "./problems/problem-806_number-of-lines-to-write-string/testing.js";
+import { MajorityElementSolution } from "./problems/problem-169_majority-element/solution.js";
+import { MajorityElementTest } from "./problems/problem-169_majority-element/testing.js";
 
-const testing = new NumberOfLinesToWriteStringTest(
-    new NumberOfLinesToWriteStringSolution(),
-);
+const testing = new MajorityElementTest(new MajorityElementSolution());
 
 const result = testing.runTest();
 console.table(result);
