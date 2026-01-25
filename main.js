@@ -1,7 +1,10 @@
-import { MajorityElementSolution } from "./problems/problem-169_majority-element/solution.js";
-import { MajorityElementTest } from "./problems/problem-169_majority-element/testing.js";
+import {
+    DegreeOfAnArraySolution,
+    DegreeOfAnArrayOneLoopSolution,
+} from "./problems/679_degree-of-an-array/solution.js";
+import { DegreeOfAnArrayTest } from "./problems/679_degree-of-an-array/testing.js";
 
-const testing = new MajorityElementTest(new MajorityElementSolution());
+const testing = new DegreeOfAnArrayTest(new DegreeOfAnArrayOneLoopSolution());
 
 const result = testing.runTest();
 console.table(result);
