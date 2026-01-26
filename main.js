@@ -1,10 +1,7 @@
-import {
-    DegreeOfAnArraySolution,
-    DegreeOfAnArrayOneLoopSolution,
-} from "./problems/679_degree-of-an-array/solution.js";
-import { DegreeOfAnArrayTest } from "./problems/679_degree-of-an-array/testing.js";
+import { ReverseStringIISolution } from "./problems/541-reverse-string-ii/solution.js";
+import { ReverseStringIITest } from "./problems/541-reverse-string-ii/testing.js";
 
-const testing = new DegreeOfAnArrayTest(new DegreeOfAnArrayOneLoopSolution());
+const testing = new ReverseStringIITest(new ReverseStringIISolution());
 
 const result = testing.runTest();
 console.table(result);
