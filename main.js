@@ -1,7 +1,7 @@
-import { ReverseStringIISolution } from "./problems/541-reverse-string-ii/solution.js";
-import { ReverseStringIITest } from "./problems/541-reverse-string-ii/testing.js";
+import { ReversePrefixOfWordTest } from "./problems/2000-reverse-prefix-of-word/testing.js";
+import { ReversePrefixOfWordSolution } from "./problems/2000-reverse-prefix-of-word/solution.js";
 
-const testing = new ReverseStringIITest(new ReverseStringIISolution());
+const testing = new ReversePrefixOfWordTest(new ReversePrefixOfWordSolution());
 
 const result = testing.runTest();
 console.table(result);
