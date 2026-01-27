@@ -1,7 +1,7 @@
-import { ReversePrefixOfWordTest } from "./problems/2000-reverse-prefix-of-word/testing.js";
-import { ReversePrefixOfWordSolution } from "./problems/2000-reverse-prefix-of-word/solution.js";
+import { ReshapeTheMatrixSolution } from "./problems/566_reshape-the-matrix/solution.js";
+import { ReshapeTheMatrixTest } from "./problems/566_reshape-the-matrix/testing.js";
 
-const testing = new ReversePrefixOfWordTest(new ReversePrefixOfWordSolution());
+const testing = new ReshapeTheMatrixTest(new ReshapeTheMatrixSolution());
 
 const result = testing.runTest();
 console.table(result);
