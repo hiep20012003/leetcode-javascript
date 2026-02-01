@@ -1,7 +1,7 @@
-import { ReshapeTheMatrixSolution } from "./problems/566_reshape-the-matrix/solution.js";
-import { ReshapeTheMatrixTest } from "./problems/566_reshape-the-matrix/testing.js";
+import { ValidParenthesesSolution } from "./problems/20_valid-parentheses/solution.js";
+import { ValidParenthesesTest } from "./problems/20_valid-parentheses/testing.js";
 
-const testing = new ReshapeTheMatrixTest(new ReshapeTheMatrixSolution());
+const testing = new ValidParenthesesTest(new ValidParenthesesSolution());
 
 const result = testing.runTest();
 console.table(result);
